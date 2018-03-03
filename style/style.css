@@ -1,0 +1,439 @@
+@font-face{
+    font-family:'textb';
+    src:url("../font/anirb___.ttf");
+    font-weight:bold;
+}
+
+@font-face{
+    font-family:'textn';
+    src:url("../font/anirm___.ttf");
+    font-weight:normal;
+}
+
+@font-face{
+    font-family:'titlen';
+    src:url("../font/partybusiness.ttf");
+    font-weight:normal;
+}
+
+
+@font-face{
+    font-family:'symbol';
+    src:url("../font/tngan.ttf");
+    font-weight:normal;
+}
+
+
+body,h2,a{
+    font-family:textn;
+}
+
+h1{
+    font-family: titlen;
+    font-size:4vw;
+}
+
+h2{
+    font-size:1.8vw;
+    margin-left:5px;
+}
+
+h3{
+    color:white;
+    font-size: 1.2em;
+}
+
+h2:after,h2:before{
+    content:" Ij ";
+    font-family:symbol;
+    color:orangered;
+    vertical-align: top;
+}
+
+/*navbar*/
+
+.navbar-default {
+    background-color:orangered;
+    border-radius: 0;
+    margin:0;
+    border: 0;
+    padding-bottom: 4px;
+}
+
+.navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a:hover {
+    color: white;
+    border-bottom: 3px orangered solid;
+}
+
+.navbar-default .navbar-nav > li > a.active {
+    color: white;
+    border-bottom: 3px white solid;
+}
+
+/*carroussel*/
+
+.carroussel-container {
+    margin:0;
+    padding: 0;
+}
+
+.carousel-caption {
+    padding-bottom: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.carousel-caption p.title {
+    font-size: 4vw;
+    font-family: titlen;
+}
+
+/*pills*/
+
+.container-pills {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-pills a {
+    background-color: unset;
+    color:gray;
+}
+
+.glyphe{
+    content:" Ij ";
+    font-family:symbol;
+    color:orangered;
+    vertical-align: top;
+    font-size: 1.5em;
+}
+
+.nav-pills>li.active>a,.nav-pills>li.active>a:hover,.nav-pills>li.active>a:focus{
+    background-color: unset;
+    color:orangered;
+    border-bottom: 3px orangered solid;
+}
+
+/*thumbnails*/
+
+.orange {
+    color: orange;
+}
+
+.profil {
+    position: relative;
+    background-color: black;
+    z-index: 1;
+    opacity: 0.9;
+    padding-top:10px;
+    margin: 0 20px;
+}
+
+.profil:hover {
+    opacity: 1;
+}
+
+.gold-profil {
+    background-color: white;
+    position: absolute;
+    top: 80px;
+    left: 10%;
+    width: 80%;
+    padding: 0 15px; 
+    border-radius: 15px;
+    text-align: center;
+    z-index: 2;
+    opacity: 0.8;
+}
+
+.dead {
+    position: absolute;
+    top: 80px;
+    left: 10%;
+    width: 80%;
+    padding: 0 15px; 
+    border-radius: 15px;
+    text-align: center;
+    z-index: 2;
+    font-size: 2em;
+    color:orangered;
+}
+
+.shadow {
+    opacity:0.2;
+}
+
+.name-dead {
+    position: absolute;
+    z-index: 2;
+    top: 200px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.name-dead span {
+    color: white;
+    font-family: tahoma;
+    font-size: 3em;
+    text-decoration: line-through;
+    text-decoration-color: orangered;
+}
+
+.gold-profil p {
+    color: black;
+    font-family: tahoma;
+    font-size: 1.8em;
+}
+
+.profil:hover .gold-profil {
+    opacity: 0;
+}
+
+.name-profil {
+    position: absolute;
+    z-index: 2;
+    top: 200px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.name-profil span{
+    color: white;
+    font-family: tahoma;
+    font-size: 3em;
+}
+
+.profil:hover .name-profil {
+   top:70%;
+    text-align: center;
+}
+
+.profil:hover .name-profil span {
+   font-size: 2em;
+}
+
+/*REWARD*/
+
+#reward {
+    background-image: url("../img/_bg_dark.png");
+    min-height: 300px;
+    padding:15px;
+}
+
+#reward h2,#reward p{
+    color:white;
+}
+
+#reward h2 {
+    font-size:2.1vw;
+}
+
+#reward p{
+    font-size:1.5vw;
+    padding: 20px;
+}
+
+#reward img{
+    width:90%;
+    height:90%;
+}
+
+
+.reward-button {
+    width: 100%;
+   display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.reward-button button{
+    color:orangered;
+    min-width: 140px;
+    width: 20%;
+    height: 80px;
+    transform: skewX(15deg);
+}
+
+
+/*--------------------HUNTER------------------------------*/
+#hunters {
+    background-image: url("../img/_bg_light.png");
+    padding: 0 25px;
+}
+.hunter-profil {
+    display: flex;
+    flex-direction: column;
+    padding: 5px
+}
+
+.hunter {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+#hunters button{
+    background-image: url("../img/_bg_dark.png");
+    transform: skewX(15deg);
+    color: orangered;
+}
+
+.hunter-img {
+    margin: 5px;
+}
+
+.hunter-profil div p {
+    color:orangered;
+    font-size:1.4em;
+}
+
+.hunter-profil div a {
+    color:dimgray;
+    font-size:0.8em;
+}
+
+/*----------------------------RING-------------------------------*/
+
+#ring {
+    background-image: url("../img/_bg_dark.png");
+}
+
+#ring h2 {
+    color:white;
+    font-size:2em;
+}
+
+#ring p {
+    font-size: 2em;
+}
+
+.panel-default {
+    border: 0px;
+}
+
+.panel-default>.panel-heading {
+    background-color: orangered;
+    border-color: orangered;
+}
+
+.panel-default>.panel-heading>h3{
+    color:white;
+}
+
+#ring img {
+    max-height: 220px;
+    margin:15px;
+}
+
+.gollum-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gollum {
+    display:flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.gollum p {
+    margin: 10px;
+}
+
+.gollum .signature {
+    text-align:right;
+}
+
+.gollum span {
+    color: darkgray;
+}
+
+/*----------------------------JOIN ARMY--------------*/
+
+#joinarmy {
+    padding:15px;
+}
+
+#joinarmy img {
+    height: 200px;
+}
+
+
+#joinarmy button{
+    background-color: black;
+    color:orangered;
+    min-width:370px;
+    height: 50px;
+    transform: skewX(15deg);
+}
+
+.moreinfo {
+    padding: 60px;
+}
+
+.moreinfo div{
+    display: flex;
+    justify-content: center;
+}
+
+.moreinfo p {
+    color:orangered; 
+}
+
+.center-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*---------------------CONTACT----------------*/
+#contact {
+    background-image: url("../img/_bg_dark.png");
+    padding: 40px;
+}
+
+#contact textarea{
+    height: 300px;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-container img {
+    width: 100%;
+    max-width:500px;
+}
+
+/*-------------FOOTER-------------------*/
+
+
+footer {
+    background-color: orangered;
+}
+
+footer a {
+    color:white;
+    font-size:1.6em;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+}
+
+.container-footer-logo {
+    display: flex;
+    justify-content: center;
+}

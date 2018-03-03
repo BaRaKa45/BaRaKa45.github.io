@@ -22,7 +22,9 @@
     src:url("../font/tngan.ttf");
     font-weight:normal;
 }
-
+body {
+    background-image: url(bg_light.png);
+}
 
 body,h2,a{
     font-family:textn;
@@ -222,7 +224,7 @@ h2:after,h2:before{
 /*REWARD*/
 
 #reward {
-    background-image: url("../img/_bg_dark.png");
+    background-image: url("bg_dark.png");
     min-height: 300px;
     padding:15px;
 }
@@ -264,7 +266,7 @@ h2:after,h2:before{
 
 /*--------------------HUNTER------------------------------*/
 #hunters {
-    background-image: url("../img/_bg_light.png");
+    background-image: url("bg_light.png");
     padding: 0 25px;
 }
 .hunter-profil {
@@ -280,7 +282,7 @@ h2:after,h2:before{
 }
 
 #hunters button{
-    background-image: url("../img/_bg_dark.png");
+    background-image: url("bg_dark.png");
     transform: skewX(15deg);
     color: orangered;
 }
@@ -302,7 +304,7 @@ h2:after,h2:before{
 /*----------------------------RING-------------------------------*/
 
 #ring {
-    background-image: url("../img/_bg_dark.png");
+    background-image: url("bg_dark.png");
 }
 
 #ring h2 {
@@ -395,7 +397,7 @@ h2:after,h2:before{
 }
 /*---------------------CONTACT----------------*/
 #contact {
-    background-image: url("../img/_bg_dark.png");
+    background-image: url("bg_dark.png");
     padding: 40px;
 }
 

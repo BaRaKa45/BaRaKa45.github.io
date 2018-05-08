@@ -1,0 +1,77 @@
+.ring-orange {
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    border: 6.3px #fd7214 solid;
+    box-shadow: #dc5a02 2.1px 2.1px 2.1px;
+    box-sizing: border-box;
+}
+
+.ring-yellow {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 18px #fece10 solid;
+    box-shadow: #daae01 6px 6px 6px;
+    box-sizing: border-box;
+}
+
+div .ring-black-1 {
+    height: 15px;
+    width: 15px;
+    border-radius: 7.5px;
+    border: 1.35px #343434 solid;
+    box-shadow: #1b1b1b 0.45px 0.45px 0.45px;
+    box-sizing: border-box;
+    margin: -1.95px;
+}
+
+div .ring-black-2 {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    border: 2.7px #343434 solid;
+    box-shadow: #1b1b1b 0.9px 0.9px 0.9px;
+    box-sizing: border-box;
+    margin: -3.9px;
+}
+
+div .ring-black-3 {
+    height: 45px;
+    width: 45px;
+    border-radius: 22.5px;
+    border: 4.05px #343434 solid;
+    box-shadow: #1b1b1b 1.35px 1.35px 1.35px;
+    box-sizing: border-box;
+    margin: -5.85px;
+}
+
+div .ring-black-4 {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    border: 5.4px #343434 solid;
+    box-shadow: #1b1b1b 1.8px 1.8px 1.8px;
+    box-sizing: border-box;
+    margin: -7.8px;
+}
+
+div .ring-black-5 {
+    height: 75px;
+    width: 75px;
+    border-radius: 37.5px;
+    border: 6.75px #343434 solid;
+    box-shadow: #1b1b1b 2.25px 2.25px 2.25px;
+    box-sizing: border-box;
+    margin: -9.75px;
+}
+
+div .ring-black-6 {
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    border: 8.1px #343434 solid;
+    box-shadow: #1b1b1b 2.7px 2.7px 2.7px;
+    box-sizing: border-box;
+    margin: -11.7px;
+}

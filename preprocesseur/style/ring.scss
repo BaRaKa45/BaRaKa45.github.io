@@ -1,0 +1,35 @@
+$first-size: 7;
+$second-size: 20;
+$third-size: 3;
+
+$orange-color: #fd7214;
+$yellow-color: #fece10;
+$black-color: #343434;
+
+@mixin ring($size, $color) {
+  height: 10px * $size;
+  width: 10px * $size;
+  border-radius: 5px * $size;
+  border: 0.9px * $size $color solid;
+  box-shadow: darken($color, 10%) 0.3px * $size 0.3px * $size 0.3px * $size;
+  box-sizing: border-box;
+}
+
+@mixin ring-chain($left, $size, $color) {
+  @include ring($size, $color);
+  margin: - $size * (1px + $left);
+}
+
+.ring-orange {
+  @include ring($first-size, $orange-color);
+}
+
+.ring-yellow {
+  @include ring($second-size, $yellow-color);
+}
+
+@for $i from 1 through 6 {
+  div .ring-black-#{$i} {
+    @include ring-chain(0.3, ($i * $third-size) * 0.5, $black-color);
+  }
+}
